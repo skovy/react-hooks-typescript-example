@@ -3,6 +3,7 @@ import "./App.css";
 import Counter from "./Counter";
 import CounterTitle from "./CounterTitle";
 import GitHubLogo from "./GitHubLogo";
+import Title from "./Title";
 
 // An object of all possible example components that can be rendered
 const EXAMPLES = {
@@ -33,6 +34,8 @@ const App = () => {
 
   return (
     <>
+      <Title />
+      <GitHubLogo />
       <div className="container">
         <div className="app">
           {exampleButtons}
@@ -40,7 +43,6 @@ const App = () => {
           <ExampleComponent />
         </div>
       </div>
-      <GitHubLogo />
     </>
   );
 };
