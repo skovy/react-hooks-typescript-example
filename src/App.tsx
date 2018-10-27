@@ -1,6 +1,7 @@
 import * as React from "react";
 import "./App.css";
 import Counter from "./Counter";
+import CounterReducer from "./CounterReducer";
 import CounterTitle from "./CounterTitle";
 import GitHubLogo from "./GitHubLogo";
 import Title from "./Title";
@@ -8,7 +9,8 @@ import Title from "./Title";
 // An object of all possible example components that can be rendered
 const EXAMPLES = {
   Counter,
-  CounterTitle
+  CounterTitle,
+  CounterReducer
 };
 
 type Examples = keyof typeof EXAMPLES;
