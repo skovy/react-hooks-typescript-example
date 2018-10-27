@@ -1,5 +1,13 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  background-image: radial-gradient(circle at 62% 44%, #f353d0, #5801bc);
+  min-height: 100vh;
+  font-size: 16px;
+}
+
+#root {
+  min-height: 100vh;
 }
