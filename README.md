@@ -1,6 +1,6 @@
 ## 🎣 React Hooks TypeScript Examples
 
-[View the live demo here.](https://react-hooks-typescript-example-ljpijrbetn.now.sh/)
+[View the live demo here](https://react-hooks-typescript-example-ljpijrbetn.now.sh/) or [edit it live in CodeSandbox](https://codesandbox.io/s/github/skovy/react-hooks-typescript-example).
 
 ### Getting Started
 
