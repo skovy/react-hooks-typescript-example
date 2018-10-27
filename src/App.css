@@ -13,3 +13,11 @@
   background-color: #444444;
   min-width: 600px;
 }
+
+.separator {
+  margin: 16px 0;
+  height: 4px;
+  border-radius: 2px;
+  width: 100%;
+  background-color: #f353d0;
+}
