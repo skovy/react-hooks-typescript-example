@@ -1,7 +1,12 @@
 import * as React from "react";
 
+interface setState<T = any> {
+  (s: T): void;
+  (f: (s: T) => T): void;
+}
+
 declare module "react" {
-  function useState<T>(initialState: T | (() => T)): [T, (newState: T) => void];
+  function useState<T>(initialState: T | (() => T)): [T, setState<T>];
   function useEffect(
     create: () => void | (() => void),
     inputs?: ReadonlyArray<unknown>
