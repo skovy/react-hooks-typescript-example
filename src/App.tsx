@@ -15,6 +15,8 @@ const EXAMPLES = {
 
 type Examples = keyof typeof EXAMPLES;
 
+const EXAMPLE_NAMES = Object.keys(EXAMPLES) as Examples[];
+
 const App = () => {
   // Use state to keep track of the current displayed example component
   const [example, setExample] = React.useState<Examples>("Counter");
@@ -23,7 +25,7 @@ const App = () => {
   const ExampleComponent = EXAMPLES[example];
 
   // A list of buttons for all examples to render
-  const exampleButtons = Object.keys(EXAMPLES).map((name: Examples) => (
+  const exampleButtons = EXAMPLE_NAMES.map(name => (
     <button
       key={name}
       onClick={() => setExample(name)}
