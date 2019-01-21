@@ -6,8 +6,8 @@
   "dependencies": {
     "@types/react": "^16.7.2",
     "@types/react-dom": "^16.0.9",
-    "react": "^16.7.0-alpha.0",
-    "react-dom": "^16.7.0-alpha.0",
+    "react": "^16.8.0-alpha.1",
+    "react-dom": "^16.8.0-alpha.1",
     "react-scripts": "^2.1.1"
   },
   "scripts": {
