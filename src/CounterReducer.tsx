@@ -12,7 +12,7 @@ interface Action {
 
 const initialState: State = { count: 0 };
 
-const reducer = (state: State, action: Action): State => {
+const reducer: React.Reducer<State, Action> = (state, action) => {
   switch (action.type) {
     case "reset":
       return initialState;
@@ -26,7 +26,7 @@ const reducer = (state: State, action: Action): State => {
 };
 
 const CounterReducer = () => {
-  const [state, dispatch] = React.useReducer<State, Action>(
+  const [state, dispatch] = React.useReducer<React.Reducer<State, Action>>(
     reducer,
     initialState
   );
