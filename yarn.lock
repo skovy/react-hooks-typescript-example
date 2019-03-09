@@ -1084,17 +1084,17 @@
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.1.tgz#48fd98c1561fe718b61733daed46ff115b496e18"
   integrity sha512-eqz8c/0kwNi/OEHQfvIuJVLTst3in0e7uTKeuY+WL/zfKn0xVujOTp42bS/vUUokhK5P2BppLd9JXMOMHcgbjA==
 
-"@types/react-dom@^16.0.9":
-  version "16.0.11"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.0.11.tgz#bd10ccb0d9260343f4b9a49d4f7a8330a5c1f081"
-  integrity sha512-x6zUx9/42B5Kl2Vl9HlopV8JF64wLpX3c+Pst9kc1HgzrsH+mkehe/zmHMQTplIrR48H2gpU7ZqurQolYu8XBA==
+"@types/react-dom@^16.8.2":
+  version "16.8.2"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.8.2.tgz#9bd7d33f908b243ff0692846ef36c81d4941ad12"
+  integrity sha512-MX7n1wq3G/De15RGAAqnmidzhr2Y9O/ClxPxyqaNg96pGyeXUYPSvujgzEVpLo9oIP4Wn1UETl+rxTN02KEpBw==
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^16.7.2":
-  version "16.7.20"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.7.20.tgz#13ae752c012710d0fa800985ca809814b51d3b58"
-  integrity sha512-Qd5RWkwl6SL7R2XzLk/cicjVQm1Mhc6HqXY5Ei4pWd1Vi8Fkbd5O0sA398x8fRSTPAuHdDYD9nrWmJMYTJI0vQ==
+"@types/react@*", "@types/react@16.8.7":
+  version "16.8.7"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.8.7.tgz#7b1c0223dd5494f9b4501ad2a69aa6acb350a29b"
+  integrity sha512-0xbkIyrDNKUn4IJVf8JaCn+ucao/cq6ZB8O6kSzhrJub1cVSqgTArtG0qCfdERWKMEIvUbrwLXeQMqWEsyr9dA==
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
@@ -8110,15 +8110,15 @@ react-dev-utils@^8.0.0:
     strip-ansi "5.0.0"
     text-table "0.2.0"
 
-react-dom@^16.8.0-alpha.1:
-  version "16.8.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.8.0-alpha.1.tgz#dab73b8354ba2e498e3127d18e29d4546cea889e"
-  integrity sha512-tZCUM8BpnwUHJmLnUWP9c3vVZxnCqYotj7s4tx7umojG6BKv745KIBtuPTzt0EI0q50GMLEpmT/CPQ8iA61TwQ==
+react-dom@16.8.4:
+  version "16.8.4"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.8.4.tgz#1061a8e01a2b3b0c8160037441c3bf00a0e3bc48"
+  integrity sha512-Ob2wK7XG2tUDt7ps7LtLzGYYB6DXMCLj0G5fO6WeEICtT4/HdpOi7W/xLzZnR6RCG1tYza60nMdqtxzA8FaPJQ==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
-    scheduler "^0.13.0-alpha.1"
+    scheduler "^0.13.4"
 
 react-error-overlay@^5.1.4:
   version "5.1.4"
@@ -8179,15 +8179,15 @@ react-scripts@2.1.8:
   optionalDependencies:
     fsevents "1.2.4"
 
-react@^16.8.0-alpha.1:
-  version "16.8.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.8.0-alpha.1.tgz#c2b32689f3b466d3ce85a634dd9035f789d2cd97"
-  integrity sha512-vLwwnhM2dXrCsiQmcSxF2UdZVV5xsiXjK5Yetmy8dVqngJhQ3aw3YJhZN/YmyonxwdimH40wVqFQfsl4gSu2RA==
+react@16.8.4:
+  version "16.8.4"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.8.4.tgz#fdf7bd9ae53f03a9c4cd1a371432c206be1c4768"
+  integrity sha512-0GQ6gFXfUH7aZcjGVymlPOASTuSjlQL4ZtVC5YKH+3JL6bBLCVO21DknzmaPlI90LN253ojj02nsapy+j7wIjg==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
-    scheduler "^0.13.0-alpha.1"
+    scheduler "^0.13.4"
 
 read-pkg-up@^1.0.1:
   version "1.0.1"
@@ -8653,10 +8653,10 @@ sax@^1.2.4, sax@~1.2.4:
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
 
-scheduler@^0.13.0-alpha.1:
-  version "0.13.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.13.0-alpha.1.tgz#753977fb4fb35d8cdd559868a11e46b640955556"
-  integrity sha512-W0sH0848sVuPKg+I18vTYQyzVtA4X1lrVgSeXK6KnOPUltFdJcY5nkbTkjGUeS/E0x+eBsNYfSdhJtGjT95njw==
+scheduler@^0.13.4:
+  version "0.13.4"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.13.4.tgz#8fef05e7a3580c76c0364d2df5e550e4c9140298"
+  integrity sha512-cvSOlRPxOHs5dAhP9yiS/6IDmVAVxmk33f0CtTJRkmUWcb1Us+t7b1wqdzoC0REw2muC9V5f1L/w5R5uKGaepA==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
